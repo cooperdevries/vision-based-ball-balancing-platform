@@ -50,6 +50,6 @@ A USB camera tracks the ball using OpenCV. The program calculates how far the ba
 
 ## Project Files
 
-- `ball_control.py` — camera tracking and PID control
-- `arduino_control.ino` — servo control
+- `balancing_ball_controller.py` — camera tracking and PID control
+- `ball_balancing_arduino.ino` — Arduino servo control
 - `media/` — photos and demo videos
