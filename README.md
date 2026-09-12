@@ -6,6 +6,10 @@ A ball-balancing platform I built that uses a camera, OpenCV, PID control, and t
 
 [Watch the full demo video](media/DemoVideo.MOV)
 
+### Quick Preview
+
+<img src="media/demo.gif" width="450">
+
 ### Photos
 
 <img src="media/AngledView.png" width="350">
