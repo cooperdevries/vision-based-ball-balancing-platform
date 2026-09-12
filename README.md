@@ -8,11 +8,11 @@ A ball-balancing platform I built that uses a camera, OpenCV, PID control, and t
 
 ### Photos
 
-<img src="media/AngledView.HEIC" width="350">
+<img src="media/AngledView.png" width="350">
+
+<img src="media/SideView.png" width="350">
 
 <img src="media/ImageProcessing.png" width="350">
-
-<img src="media/SideView.HEIC" width="350">
 
 ## How It Works
 
