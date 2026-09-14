@@ -22,7 +22,7 @@ A ball-balancing platform I built that uses a camera, OpenCV, PID control, and t
 
 Camera → Python/OpenCV → Ball Position → PID Controller → Arduino → Servos → Platform
 
-A USB camera tracks the ball using OpenCV. The program calculates how far the ball is from the center of the platform, then uses a PID control loop to decide how much the platform should tilt. The Arduino receives those commands and controls the two servos.
+A USB camera tracks the ball using OpenCV and determines its position relative to the center of the platform. The program converts that position into X- and Y-axis error values, then uses a PID control loop to calculate how much the platform should tilt in each direction. Those commands are sent to the Arduino, which adjusts the two servos to move the ball back toward the center. Position filtering and a small dead zone are also used to reduce noise and unnecessary servo movement.
 
 ## Hardware
 
